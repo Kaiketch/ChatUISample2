@@ -272,7 +272,8 @@
         cell.messageLabelHeight = messageLabelHeight;
         cell.messageLabelWidth = messageLabelWidth;
         
-        // ハイライトなし
+        //背景の設定
+        cell.backgroundColor = [UIColor colorWithRed:240/255.0 green:240/255.0 blue:240/255.0 alpha:1.0];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         
         return cell;
@@ -284,7 +285,8 @@
         cell.messageLabelHeight = messageLabelHeight;
         cell.messageLabelWidth = messageLabelWidth;
         
-        // ハイライトなし
+        //背景の設定
+        cell.backgroundColor = [UIColor colorWithRed:240/255.0 green:240/255.0 blue:240/255.0 alpha:1.0];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         
         return cell;

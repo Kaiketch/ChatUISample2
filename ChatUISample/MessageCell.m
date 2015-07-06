@@ -39,7 +39,7 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    
+        
     //ユーザーアイコン
     _imageViewIcon.frame = CGRectMake(10, 10, 40, 40);
     _imageViewIcon.backgroundColor = [UIColor grayColor];
@@ -50,7 +50,7 @@
     
     //メッセージ部分
     _labelMessage.frame = CGRectMake(60, 30, _messageLabelWidth, _messageLabelHeight);
-    _labelMessage.backgroundColor = [UIColor blueColor];
+    _labelMessage.backgroundColor = [UIColor colorWithRed:120/255.0 green:120/255.0 blue:255/255.0 alpha:1.0];
     _labelMessage.text = _message.message;
 }
 

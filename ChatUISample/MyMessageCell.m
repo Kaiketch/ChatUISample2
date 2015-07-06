@@ -32,10 +32,10 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    
+        
     //セルの幅マイナスメッセージラベルの幅マイナスpadding10に配置
     _labelMessage.frame = CGRectMake(self.frame.size.width -_messageLabelWidth -10, 30, _messageLabelWidth, _messageLabelHeight);
-    _labelMessage.backgroundColor = [UIColor redColor];
+    _labelMessage.backgroundColor = [UIColor colorWithRed:255/255.0 green:120/255.0 blue:120/255.0 alpha:1.0];
     _labelMessage.text = _message.message;
 }
 
